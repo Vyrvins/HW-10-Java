@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cfca0ae-9634-4c08-9ded-445d93b04b44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/nelology/cond/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/cond/RadioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nelology/cond/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/nelology/cond/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/nelology/cond/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/cond/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/cond/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +66,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.shouldDoNextAfterMiddle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.shouDecreaseVolumeAfterMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW10Java" />
       <extension name="coverage">
         <pattern>
@@ -82,13 +76,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.cond" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.cond.RadioTest" />
-      <option name="METHOD_NAME" value="shouldDoNextAfterMiddle" />
+      <option name="METHOD_NAME" value="shouDecreaseVolumeAfterMin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.shouldDoPrevAfterMiddle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.shouldDecreaseVolumeAfterMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW10Java" />
       <extension name="coverage">
         <pattern>
@@ -98,13 +92,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.cond" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.cond.RadioTest" />
-      <option name="METHOD_NAME" value="shouldDoPrevAfterMiddle" />
+      <option name="METHOD_NAME" value="shouldDecreaseVolumeAfterMax" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.shouldSetNotValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.shouldIncreaseVolumeAfterMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW10Java" />
       <extension name="coverage">
         <pattern>
@@ -114,13 +108,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.cond" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.cond.RadioTest" />
-      <option name="METHOD_NAME" value="shouldSetNotValid" />
+      <option name="METHOD_NAME" value="shouldIncreaseVolumeAfterMax" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.shouldSetVolumeAboveMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.shouldIncreaseVolumeAfterMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW10Java" />
       <extension name="coverage">
         <pattern>
@@ -130,7 +124,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.cond" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.cond.RadioTest" />
-      <option name="METHOD_NAME" value="shouldSetVolumeAboveMin" />
+      <option name="METHOD_NAME" value="shouldIncreaseVolumeAfterMin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,10 +133,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RadioTest" />
-        <item itemvalue="JUnit.RadioTest.shouldSetVolumeAboveMin" />
-        <item itemvalue="JUnit.RadioTest.shouldDoPrevAfterMiddle" />
-        <item itemvalue="JUnit.RadioTest.shouldDoNextAfterMiddle" />
-        <item itemvalue="JUnit.RadioTest.shouldSetNotValid" />
+        <item itemvalue="JUnit.RadioTest.shouldDecreaseVolumeAfterMax" />
+        <item itemvalue="JUnit.RadioTest.shouDecreaseVolumeAfterMin" />
+        <item itemvalue="JUnit.RadioTest.shouldIncreaseVolumeAfterMax" />
+        <item itemvalue="JUnit.RadioTest.shouldIncreaseVolumeAfterMin" />
       </list>
     </recent_temporary>
   </component>
@@ -171,29 +165,20 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/cond/RadioTest.java</url>
-          <line>130</line>
-          <properties class="ru.netology.cond.RadioTest" method="shouldSetStationAfterMax">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ru/netology/cond/RadioTest.java</url>
-          <line>131</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/cond/RadioTest.java</url>
-          <line>143</line>
+          <line>78</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ru/netology/cond/RadioTest.java</url>
-          <line>153</line>
+          <line>115</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/cond/RadioTest.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
